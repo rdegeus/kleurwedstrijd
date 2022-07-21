@@ -1,0 +1,93 @@
+body {
+  margin: 25px;
+  background-color: #FDEAC1;
+}
+
+header {
+  max-width: 800px;
+  background-color: #F28828;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  max-width: 800px;
+  background-color: #F28828;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+font-family: 'Edu VIC WA NT Beginner', cursive;
+color: #F11F07;
+}
+
+#content {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#knop {
+font-family: 'Edu VIC WA NT Beginner', cursive;
+background-color: #D15049;
+color: white;
+font-size: 18px;
+font-weight: bold;
+border: none;
+margin: 10px;
+padding: 10px;
+border-radius: 10px;
+}
+
+#knop:hover {
+  background-color: #DD7C77;
+}
+
+.kleurplaat {
+  width: 100%;
+}
+
+.titel {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.uitleg {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 22px;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.printen {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spelregels {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: #4B1512;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.copyright {
+  font-size: 20px;
+  color: white;
+  margin: 20px;
+}
+
+.ui-state-active {
+    border: none !important;
+    background: #4B1512 !important;
+}

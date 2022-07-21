@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello summer kleurwedstrijd</title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;700&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+
+    <script>
+    $(document).ready(function() {
+    $("#knop").click(function() {
+    $("header").hide();
+    $("#informatie").hide();
+    $("footer").hide();
+    window.print();
+    $("header").show();
+    $("#informatie").show();
+    $("footer").show();
+    });
+    });
+    $(function() {
+    $("#accordion").accordion();
+    });
+    </script>
+
+  </head>
+  <body>
+    <header>
+      <div class="titel">
+        <h1>Hello summer kleurwedstrijd</h1>
+      </div>
+        <p class="uitleg">Het is alweer hartje zomer en om je een beetje bezig te houden in deze vakantieoeriode hebben we een leuke kleurwedstrijd voor je geregeld!
+          Dus pak je stiften of potloden er snel bij, druk de kleurplaat af en leef je maar helemaal uit. <br><br> Misschien win jij dan straks wel een van die mooie prijzen die
+          we voor je in petto hebben.</p>
+     </header>
+      <div id="content">
+        <p><img class="kleurplaat"  src="afbeeldingen/hello-summer.jpg" alt="Zomer kleurplaat"></p>
+      <div id="informatie">
+      <div class="printen">
+        <form id="gegevens">
+        <input id="knop" name="knop" type="button"
+        value="Print de kleurplaat">
+      </form><br>
+      </div>
+        <p class="spelregels">Alles wat je moet weten over deze kleurwedstrijd:</p>
+        <div id="accordion">
+          <h3>Tot wanneer kan ik mijn kleurplaat inleveren?</h3>
+          <div>
+            <p>De kleurplaat moet voor 31 augustus zijn ingeleverd.</p>
+          </div>
+          <h3>Wie mag er aan de kleurwedstrijd meedoen?</h3>
+          <div>
+            <p>De kleurwedstrijd is voor kinderen van 1 t/m 6 & 7 t/m 12 jaar.</p>
+          </div>
+          <h3>Waar kan ik mijn kleurplaat inleveren?</h3>
+          <div>
+            <p>Je kan de kleurplaat bij alle winkeliers in het centrum van Boekel inleveren.</p>
+          </div>
+          <h3>Wat kan ik winnen?</h3>
+          <div>
+            <p>Dat is nog een verassing! Maar er zijn leuke prijzen ne de uitslag staat 6 september in het Boekels Weekblad.</p>
+          </div>
+        </div>
+      </div><br><br>
+        <noscript>
+        Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+        </noscript>
+      <footer>
+        <div class="copyright">  &copy; 2022 Winkeliersvereniging Boekel - Over de uitslag kan niet worden gecorrespondeerd.
+        </div>
+      </footer><br><br>
+    </div>
+  </body>
+</html>
